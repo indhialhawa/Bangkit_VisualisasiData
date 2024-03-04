@@ -6,7 +6,7 @@ import seaborn as sns
 order_orderdata_df = pd.read_csv("https://raw.githubusercontent.com/indhialhawa/Bangkit_VisualisasiData/main/data.csv")
 monthly_orders_df = pd.read_csv("https://raw.githubusercontent.com/indhialhawa/Bangkit_VisualisasiData/main/data1.csv")
 
-st.title('DASHBOAR DATA E-COMMERCE')
+st.title('DASHBOARD DATA E-COMMERCE')
 
 # Pertanyaan 1
 monthly_orders_df['order_purchase_timestamp'] = pd.to_datetime(order_orderdata_df['order_purchase_timestamp'])
